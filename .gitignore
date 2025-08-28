@@ -1,39 +1,55 @@
-# C++ build files
-build/  
-*.so  
-
-venv/
-*.pyc
-__pycache__/
-build/
-dist/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# --- C++ / build ---
+/build/
+/dist/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
 *.pdb
+*.ilk
 
-# Virtual environment
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
 venv/
-src/venv/
+*.egg-info
+dist/
+build/
+.pytest_cache/
+
+# --- Pybind (compiled python extensions) ---
+*.pyd
+*.so
 
 # Qt / PySide
 *.qmlc
 *.jsc
 *.qrc.dep
 
-# C++ build artifacts
-build/
-cmake-build-*/
-*.obj
-*.o
-*.so
-*.dll
-*.exe
-*.lib
-*.pdb
+# --- Qt / QtCreator ---
+*.pro.user
+*.qrc.c
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
 
-# VS Code
+# --- Vulkan validation layers cache (optional) ---
+.vulkan/
+
+# --- VS Code ---
 .vscode/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Secrets ---
+.env
