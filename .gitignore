@@ -1,0 +1,39 @@
+# C++ build files
+build/  
+*.so  
+
+venv/
+*.pyc
+__pycache__/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+src/venv/
+
+# Qt / PySide
+*.qmlc
+*.jsc
+*.qrc.dep
+
+# C++ build artifacts
+build/
+cmake-build-*/
+*.obj
+*.o
+*.so
+*.dll
+*.exe
+*.lib
+*.pdb
+
+# VS Code
+.vscode/

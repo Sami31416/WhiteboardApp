@@ -1,0 +1,35 @@
+QMainWindow {
+    background-color: #2D2D30;
+}
+
+QPushButton:hover {
+    background-color: #3E3E42;  /* Light hover */
+}
+
+#TitleBar{
+    background-color: #252526;
+}
+
+#TitleLabel {
+    color: #D4D4D4;
+    font-weight: bold;
+}
+
+#MinimizeButton {
+    color: white;
+    border: none;
+}
+
+#MaximizeButton {
+    color: white;
+    border: none;
+}
+
+#CloseButton {
+    color: white;
+    border: none;
+}
+
+#CloseButton:hover {
+    background-color: #E81123;
+}
